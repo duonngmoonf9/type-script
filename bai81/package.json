@@ -1,16 +1,18 @@
 {
-  "name": "bai81",
-  "version": "1.0.0",
-  "description": "",
-  "main": "demo.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "devDependencies": {
-    "typescript": "5.8.3"
-  }
+    "name": "bai81",
+    "version": "1.0.0",
+    "description": "",
+    "main": "demo.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc",
+        "dev": "tsc --watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "devDependencies": {
+        "typescript": "5.8.3"
+    }
 }
